@@ -95,6 +95,9 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
+      img {
+         width: 25px;
+      }
    }
    &__overlay {
       position: fixed;

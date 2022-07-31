@@ -5,21 +5,21 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Portfolio</title>
-   <meta name="title" content="Мое портфолио">
-   <meta name="description" content="Здесь вы сможете ознакомиться с моими работами и узнать обо мне больше">
+   <meta name="title" content="My Portfolio">
+   <meta name="description" content="Here you can see some of my projects and find out more info about me">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://metatags.io/">
-    <meta property="og:title" content="Мое портфолио">
-    <meta property="og:description" content="Здесь вы сможете ознакомиться с моими работами и узнать обо мне больше">
+    <meta property="og:title" content="My Portfolio">
+    <meta property="og:description" content="Here you can see some of my projects and find out more info about me">
     <meta property="og:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://metatags.io/">
-    <meta property="twitter:title" content="Мое портфолио">
-    <meta property="twitter:description" content="Здесь вы сможете ознакомиться с моими работами и узнать обо мне больше">
+    <meta property="twitter:title" content="My Portfolio">
+    <meta property="twitter:description" content="Here you can see some of my projects and find out more info about me">
     <meta property="twitter:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
 
 
@@ -46,11 +46,11 @@
 </head>
 <body>
    <aside class="sidepanel">
-      <a href="#" class="sidepanel__link"><img src="icons/social/facebook.svg" alt="facebook"></a>
-      <a href="#" class="sidepanel__link"><img src="icons/social/instagram.svg" alt="instagram"></a>
-      <a href="https://github.com/alenita23" class="sidepanel__link"><img src="icons/social/github.svg" alt="github"></a>
+      <a href="https://t.me/+375293779808" class="sidepanel__link" target="_blank"><img class="telegram-icon" src="icons/social/telegram.svg" alt="telegram"></a>
+      <a href="https://www.linkedin.com/in/elena-zaitsava-281390247/" class="sidepanel__link" target="_blank"><img class="linkedin-icon" src="icons/social/linkedin-icon.svg" alt="linkedin"></a>
+      <a href="https://github.com/alenita23" class="sidepanel__link" target="_blank"><img src="icons/social/github.svg" alt="github"></a>
       <div class="sidepanel__devider"></div>
-      <div class="sidepanel__text"><span>Социальные сети</span></div>
+      <div class="sidepanel__text"><span>Social Networks</span></div>
    </aside>
    <div class="menu">
       <div class="menu__block">
@@ -62,19 +62,19 @@
 
          <nav>
             <ul class="menu__list">
-               <li class="menu__link"><a href="#">про меня</a></li>
-               <li class="menu__link"><a href="#">мой опыт</a></li>
-               <li class="menu__link"><a href="#">мои навыки</a></li>
-               <li class="menu__link"><a href="#">мои работы</a></li>
+               <li class="menu__link"><a href="#about-me">About Me</a></li>
+               <li class="menu__link"><a href="#experience">My Experience</a></li>
+               <li class="menu__link"><a href="#skills">My Skills</a></li>
+               <li class="menu__link"><a href="#portfolio">My Projects</a></li>
                <!--<li class="menu__link"><a href="#">прайс-лист</a></li>-->
-               <li class="menu__link"><a href="#">контакты</a></li>
+               <li class="menu__link"><a href="#contacts">Contacts</a></li>
             </ul>
          </nav>
 
          <div class="menu__social">
-            <a href=""><img src="icons/social/Github-1.svg"></a>
-            <a href=""><img src="icons/social/Instagram-1.svg"></a>
-            <a href=""><img src="icons/social/Facebook-1.svg"></a>
+            <a href="https://github.com/alenita23"><img src="icons/social/Github-1.svg"></a>
+            <a href="https://t.me/+375293779808"><img class="tg-icon" src="icons/social/telegram.svg"></a>
+            <a href="https://www.linkedin.com/in/elena-zaitsava-281390247/"><img src="icons/social/linkedin-icon.svg"></a>
          </div>
 
       </div>
@@ -89,24 +89,25 @@
       </div>
       <div class="promo__overlay"></div>
       <div class="container">
-         <div class="title title_fz16 promo__subtitle">Меня зовут Елена Зайцева</div>
-         <h1 class="title title_fz48 promo__title">Я web-разработчик из Минска</h1>
+         <div class="title title_fz16 promo__subtitle">My name is Elena Zaitsava</div>
+         <h1 class="title title_fz48 promo__title">I am Trainee / Junior Frontend Developer from Minsk</h1>
          <div class="promo__btns">
-            <a href="#" class="promo__link btn">Портфолио</a>
-            <a href="#" class="promo__link">Про меня</a>
+            <a href="#portfolio" class="promo__link btn">My Portfolio</a>
+            <a href="#about-me" class="promo__link">About Me</a>
          </div>
       </div>
    </section>
 
    <section class="about">
       <div class="container">
-         <div class="about__wrapper">
+         <div class="about__wrapper" id="about-me">
             <img src="img/my-photo-22.jpg" alt="my photo" class="about__photo">
             <div class="about__descr">
-               <h2 class="title title_fz16 about__title">Про меня</h2>
-               <div class="about__subtitle title title_fz36">Меня зовут Алена</div>
+               <h2 class="title title_fz16 about__title" >About Me</h2>
+               <div class="about__subtitle title title_fz36">My name is Elena</div>
                <div class="divider"></div>
-               <p class="about__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam vero impedit adipisci quae eius quia nemo fugiat laboriosam error nulla ad, facere omnis modi. Quasi beatae quam facere facilis et.</p>
+               <p class="about__text">I’ve gained education in the field of Economy and Foreign trade activities, worked as Foreign trade specialist. But now my goal is to try myself in completely new profession, Frond-End Development. And I have to say I feel quite enthusiastic about it, I enjoy the process of learning a lot! The fact that there is no limits for development and growth in this field, that you have to study constantly is inspiring!<br><strong>Key features:</strong></p>
+
             </div>
             <div class="about__skills">
                <div class="about__skill">
@@ -114,8 +115,8 @@
                      <img alt="web-dev" src="icons/about_me/web_development.svg">
                   </div>
                   <div>
-                     <div class="title title_fz14">Web-разработка</div>
-                     <div class="about__skill-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus dolor quidem hic at soluta itaque blanditiis!</div>
+                     <div class="title title_fz14">keen to learn new things and work on challenging tasks</div>
+                     <div class="about__skill-text"></div>
                   </div>
                </div>
                <div class="about__skill">
@@ -123,8 +124,8 @@
                      <img alt="ux-design" src="icons/about_me/design.svg">
                   </div>
                   <div>
-                     <div class="title title_fz14">UX/UI design</div>
-                     <div class="about__skill-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus dolor quidem hic at soluta itaque blanditiis!</div>
+                     <div class="title title_fz14">self-motivated</div>
+                     <div class="about__skill-text"></div>
                   </div>
                </div>
                <div class="about__skill">
@@ -132,8 +133,8 @@
                      <img alt="mob-dev" src="icons/about_me/mobile_dev.svg">
                   </div>
                   <div>
-                     <div class="title title_fz14">Разработка приложений</div>
-                     <div class="about__skill-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus dolor quidem hic at soluta itaque blanditiis!</div>
+                     <div class="title title_fz14">responsible, honest</div>
+                     <div class="about__skill-text"></div>
                   </div>
                </div>
             </div>
@@ -143,13 +144,13 @@
 
    <section class="resume">
       <div class="container">
-         <h2 class="title title_fz16 resume__title">Опыт</h2>
-         <div class="title title_fz36 resume__subtitle">Чем я буду полезна</div>
+         <h2 class="title title_fz16 resume__title" id="experience">My</h2>
+         <div class="title title_fz36 resume__subtitle">Experience</div>
          <div class="divider"></div>
 
          <div class="resume__wrapper">
             <div class="resume__column">
-               <h3 class="title title_fz20 resume__column-title">Образование</h3>
+               <h3 class="title title_fz20 resume__column-title">Education</h3>
                <ul>
                   <li>
                      <div class="resume__item">
@@ -157,11 +158,10 @@
                            <div class="resume__item-icon">
                               <img alt="university" src="icons/experience/university.svg">
                            </div>
-                           <h4 class="title title_fz14">БГЭУ (Белорусский Государственный экономический университет)</h4>
-                           <div class="resume__item-location">Минск (2007-2012)</div>
+                           <h4 class="title title_fz14">BSEU (Belarusian State Economic University)</h4>
+                           <div class="resume__item-location">Minsk (2007-2012)</div>
                         </div>
-                        <div class="resume__item-body">
-                           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, veritatis similique. Ducimus cumque sapiente, voluptatum quam, atque porro et eligendi ea ipsam soluta laborum eaque quo harum, provident unde similique!
+                        <div class="resume__item-body"> I have graduated from the Department of Economics and Trade Management. My specialization was Commercial Activity on foreign markets.
                         </div>
                      </div>
                   </li>
@@ -172,10 +172,10 @@
                               <img alt="university" src="icons/experience/courses.svg">
                            </div>
                            <h4 class="title title_fz14">Rolling Scopes School</h4>
-                           <div class="resume__item-location">Курс Frond-End Development (2022)</div>
+                           <div class="resume__item-location">Front-End Development(2022)</div>
                         </div>
                         <div class="resume__item-body">
-                           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, veritatis similique. Ducimus cumque sapiente, voluptatum quam, atque porro et eligendi ea ipsam soluta laborum eaque quo harum, provident unde similique!
+                           The program consists of 3 stages. The specific run of the program takes the form of self-study. Topics covered: Git, HTML, CSS and Advanced JavaScript. Here is my <a href="img/RSS-certificate-Stage0.pdf" target="_blank" class="promo__link">Certificate of completion</a> RSSchool Stage 0.
                         </div>
                      </div>
                   </li>
@@ -186,10 +186,10 @@
                               <img alt="university" src="icons/experience/courses.svg">
                            </div>
                            <h4 class="title title_fz14">Udemy</h4>
-                           <div class="resume__item-location">Курсы по web-разработке</div>
+                           <div class="resume__item-location">WEB-Developer 2022, Ivan Petrichenko</div>
                         </div>
                         <div class="resume__item-body">
-                           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, veritatis similique. Ducimus cumque sapiente, voluptatum quam, atque porro et eligendi ea ipsam soluta laborum eaque quo harum, provident unde similique!
+                           Here is my <a href="img/My certificate.pdf" target="_blank" class="promo__link">Certificate of completion</a> of this course.
                         </div>
                      </div>
                   </li>
@@ -197,7 +197,7 @@
             </div>
 
             <div class="resume__column">
-               <h3 class="title title_fz20 resume__column-title">Опыт работы</h3>
+               <h3 class="title title_fz20 resume__column-title">Work Experience</h3>
                <ul>
                   <li>
                      <div class="resume__item">
@@ -205,11 +205,19 @@
                            <div class="resume__item-icon">
                               <img alt="university" src="icons/experience/developer.svg">
                            </div>
-                           <h4 class="title title_fz14">УП "НТЦ "ЛЭМТ" БелОМО"</h4>
-                           <div class="resume__item-location">Специалист по ВЭД (2014-2022)</div>
+                           <h4 class="title title_fz14">Unitary enterprise "STC "LEMT" of the BelOMO"</h4>
+                           <div class="resume__item-location">Foreign trade specialist (2014-2022)</div>
                         </div>
                         <div class="resume__item-body">
-                           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, veritatis similique. Ducimus cumque sapiente, voluptatum quam, atque porro et eligendi ea ipsam soluta laborum eaque quo harum, provident unde similique!
+                           <strong>Core responsibilities:</strong>
+                              <p class="duties">Business correspondence and negotiations with customers;</p>
+                              <p class="duties">Requests processing, dealing with inquiries and orders;</p>
+                              <p class="duties">Contracts conclusion, harmonization of contractual terms and specifications with technical specialists, lawyer and financial director;</p>
+                              <p class="duties">Foreign trade contracts support (preparation of all required documents for delivery and customs clearance, coordination of delivery);</p>
+                              <p class="duties">Translation of technical and commercial documentation;</p>
+                              <p class="duties">Marketing functions performance: preparation of advertising materials and production catalogues;</p>
+                              <p class="duties">Organization of foreign delegations reception and organization of business trips abroad (visa support, arranging transportation and accommodation);</p>
+                              <p class="duties">Temporary performance of purchasing manager duties: negotiating with suppliers, making requests for proposals, placing orders, agreeing contracts terms, preparing documents for the customs clearance.</p>
                         </div>
                      </div>
                   </li>
@@ -222,41 +230,41 @@
 
    <section class="skills">
       <div class="container">
-         <h2 class="title title_fz16 resume__title">Навыки</h2>
-         <div class="title title_fz36 resume__subtitle">Что я использую в работе</div>
+         <h2 class="title title_fz16 resume__title" id="skills">My Skills</h2>
+         <div class="title title_fz36 resume__subtitle"></div>
          <div class="divider"></div>
          <div class="skills__items">
             <div class="skills__item">
                <div class="skills__icon"><img src="icons/skills/html5.svg" alt="html"></div>
                <h3 class="title title_fz14">HTML5</h3>
-               <p class="skills__descr">Именно он создает каркас вашего сайта или приложения, а пятая версия позволит мне создавать более SEO-оптимизированную структуру вашего продукта</p>
+               <p class="skills__descr">HTML creates the framework of your website or application, and the 5th version allows to create more SEO-optimized structure of the product</p>
             </div>
             <div class="skills__item">
                <div class="skills__icon"><img src="icons/skills/css3.svg" alt="css"></div>
                <h3 class="title title_fz14">CSS3</h3>
-               <p class="skills__descr">Этот язык стилей позволяет мне создавать абсолютно любой внешний вид вашего сайта или приложения. Все ограничивается только вашей фантазией!</p>
+               <p class="skills__descr">It allows to create great-looking web pages and apps with wide variety of designs. Everything is limited only by our imagination!</p>
             </div>
             <div class="skills__item">
                <div class="skills__icon"><img src="icons/skills/js.svg" alt="html"></div>
                <h3 class="title title_fz14">JavaScript</h3>
-               <p class="skills__descr">Этот язык программирования позволяет оживить все что угодно: слайдеры, окна, подсказки, вкладки, получение данных от сервера и многое другое</p>
+               <p class="skills__descr">This programming language allows to animate anything: sliders, windows, hints, tabs, receiving data from the server and much more</p>
             </div>
             <div class="skills__item">
                <div class="skills__icon"><img src="icons/skills/github_icon_64.png" alt="css"></div>
                <h3 class="title title_fz14">Git & GitHub</h3>
-               <p class="skills__descr">Пппппппппп пппппппппппп ппппппппппппп птвыаиолиыаолиаллаыи</p>
+               <p class="skills__descr">Git is an extremely popular software for tracking changes in any set of files,  used for coordinating work among programmers during software development. GitHub is a provider of Internet hosting for software development and version control using Git</p>
             </div>
          </div>
 
       <div class="skills__ratings">
       <div class="skills__ratings-item">
-         <div class="title title_fz14 skills__ratings-title">Создание сайтов</div>
+         <div class="title title_fz14 skills__ratings-title">Websites development</div>
          <div class="skills__ratings-counter">70%</div>
          <div class="skills__ratings-line"><span></span></div>
       </div>
       <div class="skills__ratings-item">
-        <div class="title title_fz14 skills__ratings-title">Знание английского языка</div>
-        <div class="skills__ratings-counter">95%</div>
+        <div class="title title_fz14 skills__ratings-title">English</div>
+        <div class="skills__ratings-counter">90%</div>
         <div class="skills__ratings-line"><span></span></div>
       </div>
       <div class="skills__ratings-item">
@@ -265,7 +273,7 @@
          <div class="skills__ratings-line"><span></span></div>
       </div>
       <div class="skills__ratings-item">
-         <div class="title title_fz14 skills__ratings-title">Креативность</div>
+         <div class="title title_fz14 skills__ratings-title">Creativity</div>
          <div class="skills__ratings-counter">70%</div>
          <div class="skills__ratings-line"><span></span></div>
      </div>
@@ -275,22 +283,22 @@
 
 <section class="portfolio">
    <div class="container">
-      <h2 class="title title_fz16 portfolio__title">Портфолио</h2>
-      <div class="title title_fz36 portfolio__subtitle">Мои работы</div>
+      <h2 class="title title_fz16 portfolio__title" id="portfolio">My Portfolio</h2>
+      <div class="title title_fz36 portfolio__subtitle">My study projects</div>
       <div class="divider"></div>
 
       <div class="portfolio__wrapper">
          <div class="portfolio__item portfolio__item-1">
-            <a href="#" class="portfolio__item-link"><img src="img/shelter-dark.png" alt="shelter"></a>
+            <a href="https://rolling-scopes-school.github.io/alenita23-JSFE2022Q1/shelter/pages/main" class="portfolio__item-link" target="_blank"><img src="img/shelter-dark.png" alt="shelter" ></a>
          </div>
          <div class="portfolio__item portfolio__item-2">
-            <a href="#" class="portfolio__item-link"><img src="img/ecosounds-mini.png" alt="eco"></a>
+            <a href="https://rolling-scopes-school.github.io/alenita23-JSFEPRESCHOOL/eco-sounds/" class="portfolio__item-link" target="_blank"><img src="img/ecosounds-mini.png" alt="eco"></a>
          </div>
          <div class="portfolio__item portfolio__item-3">
-            <a href="#" class="portfolio__item-link"><img src="img/portfolio-mini.png" alt="portfolio"></a>
+            <a href="https://rolling-scopes-school.github.io/alenita23-JSFEPRESCHOOL/portfolio/" class="portfolio__item-link" target="_blank"><img src="img/portfolio-mini.png" alt="portfolio"></a>
          </div>
          <div class="portfolio__item portfolio__item-4">
-            <a href="#" class="portfolio__item-link"><img src="img/pulse.png" alt="pulse"></a>
+            <a href="#" class="portfolio__item-link"><img src="img/momentum-screen.png" alt="pulse" target="_blank"></a>
          </div>
       </div>
    </div>
@@ -303,31 +311,31 @@
             <img src="img/my-photo-22.jpg" alt="my photo">
          </div>
          <div class="contacts__descr">
-            <h2 class="title title_fz16 contacts__title">Контакты</h2>
-            <div class="title title_fz36 contacts__subtitle">Свяжитесь со мной</div>
+            <h2 class="title title_fz16 contacts__title" id="contacts">Contacts</h2>
+            <div class="title title_fz36 contacts__subtitle">Contact me</div>
             <div class="divider"></div>
-            <div class="title title_fz14 contacts__text">Любым удобным для Вас способом:</div>
+            <div class="title title_fz14 contacts__text">by any convenient way:</div>
             <div class="contacts__social">
-               <a href="#" class="contacts__link"><img src="icons/social/Facebook-1.svg" alt="facebook"></a>
-               <a href="#" class="contacts__link"><img src="icons/social/telegram.svg" alt="telegram"></a>
-               <a href="#" class="contacts__link"><img src="icons/social/Instagram-1.svg" alt="instagram"></a>
+               <a href="tel:++375293779808" class="contacts__link"><img src="icons/social/icon-phone.svg" alt="mobile"></a>
+               <a href="https://t.me/+375293779808" class="contacts__link" target="_blank"><img src="icons/social/telegram.svg" alt="telegram"></a>
+               <a href="mailto:alenita.zayceva@gmail.com" class="contacts__link"><img src="icons/social/icon-email.svg" alt="e-mail"></a>
             </div>
-            <div class="title title_fz14 contacts__text">Или оставьте Ваши данные и я сама Вам напишу:</div>
+            <div class="title title_fz14 contacts__text">Or leave your contact details and I'll contact you:</div>
 
             <form class="contacts__form" action="#">
                <div class="contacts__input">
                   <input name ="name" id="name" type="text" required>
-                  <label for="name">Ваше имя</label>
+                  <label for="name">Your name</label>
                </div>
                <div class="contacts__input">
                   <input name="email" id="email" type="email" required>
-                  <label for="email">Ваша почта</label>
+                  <label for="email">Your e-mail</label>
                </div>
                <div class="contacts__textarea">
                   <textarea name="text" id="text"></textarea>
-                  <label for="text">Ваше сообщение</label>
+                  <label for="text">Your message</label>
                </div>
-               <div><button class="contacts__btn btn">Отправить сообщение</button></div>
+               <div><button class="contacts__btn btn">Send message</button></div>
             </form>
       </div>
    </div>
